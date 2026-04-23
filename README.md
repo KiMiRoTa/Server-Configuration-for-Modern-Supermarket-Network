@@ -13,8 +13,8 @@ The goal is to simulate a real-world supermarket system where multiple services 
 
 ## Network Architecture
 ![IPTable](./Images/IPTable.png)
-1. PC 1 - DHCP Server automatically assigns IP addresses to other devices in the network.
-2. PC 2 - DNS Server translate domain names into IP addresses to make them more accessible.
-3. PC 3 - Web Server provides web-based services, such as supermarket information systems.
-4. PC 4 - Database Server stores and manages important data such as stock of goods and transactions.
-5. PC 5 - These devices are used by users to access services from existing servers.
+PC 1 - DHCP Server automatically assigns IP addresses to other devices in the network.
+PC 2 - DNS Server translate domain names into IP addresses to make them more accessible.
+PC 3 - Web Server provides web-based services, such as supermarket information systems.
+PC 4 - Database Server stores and manages important data such as stock of goods and transactions.
+PC 5 - These devices are used by users to access services from existing servers.
