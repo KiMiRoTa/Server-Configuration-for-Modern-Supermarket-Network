@@ -29,4 +29,5 @@ The goal is to simulate a real-world supermarket system where multiple services 
 
 ## Server Configuration
 ### DHCP Server
-![NanoDHCP](./Images/NanoDHCP.png)
+Accessing the DHCP configuration
+``` sudo ```
