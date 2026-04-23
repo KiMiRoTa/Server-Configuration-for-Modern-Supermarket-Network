@@ -28,3 +28,4 @@ The goal is to simulate a real-world supermarket system where multiple services 
 - DHCP and DNS services
 
 ## Server Configuration
+### DHCP Server
