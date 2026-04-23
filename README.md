@@ -29,5 +29,19 @@ The goal is to simulate a real-world supermarket system where multiple services 
 
 ## Server Configuration
 ### DHCP Server
-Accessing the DHCP configuration
-``` sudo ```
+The DHCP server is responsible for automatically assigning IP addresses to client devices within the network.
+
+Steps:
+- Configure a static IP address on the DHCP server (192.168.10.4)
+- Installed DHCP service with the command:
+
+``` dnf install dhcp-server -y ```
+
+- edited configuration file on:
+
+``` nano /etc/dhcp/dhcp.conf ```
+
+-Inside the file, setup the network setting into:
+  - IP range (192.168.10.50 - 192.168.10.70)
+
+### DNS Server
