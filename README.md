@@ -18,3 +18,13 @@ The goal is to simulate a real-world supermarket system where multiple services 
 - PC 3 - Web Server provides web-based services, such as supermarket information systems.
 - PC 4 - Database Server stores and manages important data such as stock of goods and transactions.
 - PC 5 - These devices are used by users to access services from existing servers.
+
+## Technologies Used
+- Red Hat Enterprise Linux (RHEL 9)
+- Windows XP (Client testing)
+- VirtualBox
+- MariaDB (Database Server)
+- Apache HTTP Server (Web Server)
+- DHCP and DNS services
+
+## Server Configuration
