@@ -205,3 +205,8 @@ ipconfig /renew
 ping 192.168.10.3
 ping supermarketudin.com
 ```
+
+## Documentation
+Full report is availabe here:
+
+![SupermarketProject](./ModernSupermarketServerProject.pdf)
