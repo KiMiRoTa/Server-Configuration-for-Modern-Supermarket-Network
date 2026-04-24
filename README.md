@@ -209,4 +209,7 @@ ping supermarketudin.com
 ## Documentation
 Full report is availabe here:
 
-![SupermarketProject](./ModernSupermarketServerProject.pdf)
+---> [SupermarketProject](./ModernSupermarketServerProject.pdf) <---
+
+## Author
+- Haikal Raihan Hafidz (KiMiRoTa)
