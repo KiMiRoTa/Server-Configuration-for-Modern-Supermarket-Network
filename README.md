@@ -11,6 +11,8 @@ it focuses on configuring essential services:
 
 The goal is to simulate a real-world supermarket system where multiple services work together in a controller network.
 
+---
+
 ## Network Architecture
 ![IPTable](./Images/IPTable.png)
 - PC 1 - DHCP Server automatically assigns IP addresses to other devices in the network.
@@ -19,6 +21,8 @@ The goal is to simulate a real-world supermarket system where multiple services 
 - PC 4 - Database Server stores and manages important data such as stock of goods and transactions.
 - PC 5 - These devices are used by users to access services from existing servers.
 
+---
+
 ## Technologies Used
 - Red Hat Enterprise Linux (RHEL 9)
 - Windows XP (Client testing)
@@ -26,6 +30,8 @@ The goal is to simulate a real-world supermarket system where multiple services 
 - MariaDB (Database Server)
 - Apache HTTP Server (Web Server)
 - DHCP and DNS services
+
+---
 
 ## Server Configuration
 ### DHCP Server
@@ -206,10 +212,14 @@ ping 192.168.10.3
 ping supermarketudin.com
 ```
 
+---
+
 ## Documentation
 Full report is availabe here:
 
 ---> [SupermarketProject](./ModernSupermarketServerProject.pdf) <---
+
+---
 
 ## Author
 - Haikal Raihan Hafidz (KiMiRoTa)
