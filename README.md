@@ -14,7 +14,16 @@ The goal is to simulate a real-world supermarket system where multiple services 
 ---
 
 ## Network Architecture
-![IPTable](./Images/IPTable.png)
+
+| Device | IP Address        | Function       | Operating System |
+|--------|------------------|---------------|------------------|
+| PC 1   | 192.168.10.3/24  | DHCP Server   | RHEL             |
+| PC 2   | 192.168.10.4/24  | DNS Server    | RHEL             |
+| PC 3   | 192.168.10.5/24  | Web Server    | RHEL             |
+| PC 4   | 192.168.10.6/24  | DB Server     | RHEL             |
+| PC 5   | Dynamic (DHCP)   | Client Device | Windows XP       |
+
+> **Note:** All servers use static IP addresses, while the client device obtains its IP dynamically from the DHCP server.
 - PC 1 - DHCP Server automatically assigns IP addresses to other devices in the network.
 - PC 2 - DNS Server translate domain names into IP addresses to make them more accessible.
 - PC 3 - Web Server provides web-based services, such as supermarket information systems.
