@@ -1,4 +1,4 @@
-# Server Configuration for Modern Supermarket Network
+# RHEL Server Configuration for Modern Supermarket Network
 
 ## Overview 
 This project demonstrate the design and implementation of a server-based network infrastructure for a modern supermarket environment.
